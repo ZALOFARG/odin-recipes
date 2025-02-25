@@ -1,5 +1,23 @@
 body {
   font-family: "Times New Roman", sans-serif;
+  background-color: #B5BBC9;
 }
 
+h1,
+h2 {
+  color: #585E6C;
+}
 
+img {
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: disclosure-closed;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
+}
