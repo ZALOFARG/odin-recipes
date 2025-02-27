@@ -20,11 +20,46 @@ img {
   margin-top: 20px;
 }
 
-ul {
-  list-style-type: disclosure-closed;
-}
-
 h1,
 h2 {
   font-family: Montserrat, sans-serif;
+}
+
+.items-container {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+li.items-menu {
+  background-color: #29292B;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li.items-menu:hover {
+  background-color: #0056b3;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  text-decoration: none;
+  background-color: #29292B;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #C9C7BA;
+}
+
+.home:hover {
+  background-color: #C9C7BA;
+  color: #29292B;
 }
